@@ -1,4 +1,4 @@
-import os# exemplo 2
+import os
 
 alunos = {"Jorge":8, 
           "Gregório":6, 
