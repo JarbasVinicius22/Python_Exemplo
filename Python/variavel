@@ -1,0 +1,6 @@
+# Variáveis são usadas para armazenar valores. Aqui estão alguns exemplos de como criar e usar variáveis em Python.
+
+x = 5  # A variável 'x' é atribuída ao valor 5.
+a = b = c = 1# Variáveis podem ser atribuídas a valores. Aqui, 'a', 'b' e 'c' são todas atribuídas ao valor 1.
+joao = jorge = luan = "aluno"# Variáveis podem ser atribuídas a strings. Aqui, 'joao', 'jorge' e 'luan' são todos atribuídos à string "aluno".
+

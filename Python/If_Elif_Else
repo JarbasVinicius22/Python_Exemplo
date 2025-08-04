@@ -1,0 +1,34 @@
+# if elif else são usados para tomar decisões com base em condições. Aqui está um exemplo de como usar essas estruturas de controle de fluxo.
+# Neste exemplo, verificamos a nota de um aluno e imprimimos uma mensagem com base na note
+
+nota = 85
+
+if nota >= 90:
+   print ("Excelente")
+
+elif nota >= 80:
+   print ("Muito bom")
+
+elif nota >= 70:
+   print ("Bom")
+
+else:
+   print ("Precisa melhorar")
+
+alunos = {
+    "maçã": 90,
+    "banana": 75,
+    "laranja": 60
+}
+
+for aluno, nota in alunos.items():
+    if nota >= 90:
+        resultado = "\033[32mExcelente\033[0m"
+    elif nota >= 80:
+        resultado = "\033[34mMuito bom\033[0m"
+    elif nota >= 70:
+        resultado = "Bom"
+    else:
+        resultado = "\033[31mPrecisa melhorar\033[0m"
+
+    print(f"{aluno.capitalize()}: {resultado}")
